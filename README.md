@@ -13,7 +13,15 @@
 
 [Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Roadmap](#-roadmap)
 
-<img src="https://raw.githubusercontent.com/NikkDevelop/Secret-Vault-CLI/main/assets/demo.gif" alt="Demo" width="600">
+```
+  ╔═══════════════════════════════════════════════════════════╗
+  ║  $ vault add                                              ║
+  ║  Secret name: github-token                                ║
+  ║  Secret value: ********                                   ║
+  ║  Category: api-keys                                       ║
+  ║  ✓ Secret 'github-token' saved successfully!              ║
+  ╚═══════════════════════════════════════════════════════════╝
+```
 
 *Your secrets never leave your machine. No cloud. No tracking. Just security.*
 
@@ -47,18 +55,18 @@
 <table>
 <tr>
 <td width="33%" align="center">
-<img src="https://raw.githubusercontent.com/NikkDevelop/Secret-Vault-CLI/main/assets/icons/lock.svg" width="80" height="80">
-<h3>🔒 Military-Grade Security</h3>
+<h1>🔒</h1>
+<h3>Military-Grade Security</h3>
 <p>AES-256-GCM encryption with scrypt key derivation. The same encryption used by governments and banks.</p>
 </td>
 <td width="33%" align="center">
-<img src="https://raw.githubusercontent.com/NikkDevelop/Secret-Vault-CLI/main/assets/icons/local.svg" width="80" height="80">
-<h3>💾 100% Local</h3>
+<h1>💾</h1>
+<h3>100% Local</h3>
 <p>Your secrets stay on your machine. No cloud sync, no servers, no tracking. Complete privacy.</p>
 </td>
 <td width="33%" align="center">
-<img src="https://raw.githubusercontent.com/NikkDevelop/Secret-Vault-CLI/main/assets/icons/opensource.svg" width="80" height="80">
-<h3>🌟 Open Source</h3>
+<h1>🌟</h1>
+<h3>Open Source</h3>
 <p>Fully auditable code. No hidden backdoors. MIT licensed. Fork it, modify it, own it.</p>
 </td>
 </tr>
@@ -227,9 +235,13 @@ npm install -g secret-vault-cli
 
 ```bash
 vault add
-```
 
-<img src="https://raw.githubusercontent.com/NikkDevelop/Secret-Vault-CLI/main/assets/screenshots/add-secret.png" alt="Add Secret" width="600">
+# Interactive prompts:
+# Secret name: github-token
+# Secret value: ********
+# Category (optional): api-keys
+# ✓ Secret 'github-token' saved successfully!
+```
 
 ### 2️⃣ Retrieve a Secret
 
