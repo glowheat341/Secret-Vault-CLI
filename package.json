@@ -1,0 +1,56 @@
+{
+  "name": "secret-vault-cli",
+  "version": "1.0.0",
+  "description": "Secure local encrypted secrets manager with CLI interface",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "vault": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "lint": "eslint src --ext .ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "secrets",
+    "vault",
+    "encryption",
+    "cli",
+    "password-manager",
+    "security"
+  ],
+  "author": "Secret Vault CLI Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikkDevelop/Secret-Vault-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NikkDevelop/Secret-Vault-CLI/issues"
+  },
+  "homepage": "https://github.com/NikkDevelop/Secret-Vault-CLI#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15",
+    "clipboardy": "^4.0.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/inquirer": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
